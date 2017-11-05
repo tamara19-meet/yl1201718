@@ -6,4 +6,3 @@ for i in range (5):
 	turtle.right(144)
 turtle.mainloop()
 
-turtle.register_shape("weird, ")
