@@ -4,9 +4,14 @@ class Animal(object):
 	self.name = name
 	self.age = age
 	self.favorite_color
-def eat(self,food):
-	print("yummy!!" + self.name + "is eating" + food)
-def description(self)
-	print(self.name + "is" + self.age + "years old and loves the color" + self.favorite_color)
-j= Animal(Roar, Lion , 30, Black)
-print=j.eat("pizza")
+	def eat(self,food):
+		print("yummy!!" + self.name + "is eating" + food)
+	def description(self)
+		print(self.name + "is" + self.age + "years old and loves the color" + self.favorite_color)
+	def make_sound.sound(self):
+		print(self.sound*3)
+dog=Animal ("barks","lucky","2","red")
+dog.eat("pizza")
+dog.description()
+dog.make_sound()                         
+
