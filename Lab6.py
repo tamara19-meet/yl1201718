@@ -33,7 +33,6 @@ def checking(banana, size):
 	numbers = []
 	for i in range (size):
 		numbers.append(i)
-	i=0
 	D= math.sqrt(math.pow((banana[i].xcor()-banana[i+1].xcor()),2) + math.pow((banana[i].ycor()-banana[i+1].ycor()),2))
 	if (D < banana[0].radius + banana[1].radius):
 		print("collision 1")
